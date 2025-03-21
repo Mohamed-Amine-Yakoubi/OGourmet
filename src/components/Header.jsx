@@ -3,16 +3,16 @@ import React, { useEffect, useState } from "react";
 
 
  
-import header_photo from "../../public/header_photo.png";
+ 
 import logo from "../../public/logo.png";
 import { IoMenu } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
 export const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+ 
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+ 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,34 +49,34 @@ export const Header = () => {
             <Link
               href="/"
               className="block   p-2 header_title"
-              onClick={toggleMenu}
+              
             >
               Accueil
             </Link>
             <Link
              href="/Menu"
               className="block   p-2 header_title"
-              onClick={toggleMenu}
+              
             >
               Menu
             </Link>
             <Link
-             href="/Props"
+            href="#À Propos"
               className="block   p-2 header_title"
-              onClick={toggleMenu}
+              
             >
-              A propos
+             À Propos
             </Link>
             <Link
-             href="/Contact"
+             href="#Contact"
               className="block  p-2 header_title"
-              onClick={toggleMenu}
+              
             >
               Contact
             </Link>
           </div>
           <button
-            onClick={toggleMenu}
+            
             className="md:hidden text-white focus:outline-none"
           >
             <IoMenu />

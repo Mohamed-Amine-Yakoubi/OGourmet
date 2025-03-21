@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import epinard from "../../public/epinard.png";
 import { Card } from "./Card";
 import HorizontalMenu from "./HorizontalMenu";
 import Link from "next/link";
 
-export const MenuSection = () => {
+export const MenuSection = ({slice}) => {
   const [menu, setMenu] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null); 
   useEffect(() => {
@@ -25,12 +24,10 @@ export const MenuSection = () => {
   const categories = [...new Set(menu.map(item => item.Catégorie))];
 
   const filteredMenu =selectedCategory?menu.filter(item=>item.Catégorie===selectedCategory) :menu;
+  const slicedMenu = slice.length ? filteredMenu.slice(...slice) :filteredMenu;
   return (
-    <section className="mx-5  mt-[200px]   ">
-      <div className="font-bold flex items-center justify-center   space-x-3  ">
-        <Image src={epinard} className="w-12" alt="À Propos" />
-        <h1 className="text    text-[30px]">Notre Menu</h1>
-      </div>
+    <section className="mx-5    ">
+
       <div className="flex justify-center my-16 items-center  ">
         
   
@@ -39,11 +36,9 @@ export const MenuSection = () => {
       </div>
      
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  gap-4 mt-[100px]   space-y-16   ">
-        {filteredMenu.length > 0 ? (
-          filteredMenu
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 8)
-            .map((item, index) => (
+        {slicedMenu.length > 0 ? (
+          slicedMenu
+            .sort(() => Math.random() - 0.5).map((item, index) => (
               <Card
                 key={index}
                 Title={item.Libellé}

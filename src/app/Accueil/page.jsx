@@ -13,14 +13,20 @@ import Image from "next/image";
 import Link from "next/link";
  
  
+ 
 
 export const Accueil = () => {
+ 
   return (
     <div>
       <Header />
 
       {/* Meun section */}
-   <MenuSection />
+      <div className="font-bold flex items-center justify-center   space-x-3 mt-[100px]  ">
+        <Image src={epinard} className="w-12" alt="À Propos" />
+        <h1 className="text    text-[30px]">Notre Menu</h1>
+      </div>
+   <MenuSection slice={[0,8]}/>
    <div className="flex justify-center">
         <Link href={'/Menu'} className="text font-semibold bg-[#ffbe33] px-5 py-2 rounded-full text-[14px]">Voir plus ...</Link>
       </div>
@@ -36,7 +42,7 @@ export const Accueil = () => {
         </div>
 
         {/* Text Container */}
-        <div className="flex flex-col justify-center text-center lg:text-left space-y-6 w-full lg:w-1/2   ">
+        <div className="flex flex-col justify-center text-center lg:text-left space-y-6 w-full lg:w-1/2   " id="À Propos">
           <div className="font-bold flex items-center justify-center lg:justify-start space-x-3">
             <Image src={epinard} className="w-12" alt="À Propos" />
             <h1 className="text  text-[30px]"> À Propos de nous</h1>
@@ -79,10 +85,10 @@ export const Accueil = () => {
       </section>
 
       {/* contact section */}
-      <section className="  mx-auto my-[100px] section_contact  ">
+      <section className="  mx-auto my-[100px] section_contact  " id="Contact">
         <div className="z-10 relative">
           <div className="font-bold flex items-center justify-center   space-x-3  ">
-            <Image src={epinard} className="w-12" alt="À Propos" />
+            <Image src={epinard} className="w-12" alt=" Contact" />
             <h1 className="text !text-white  text-[30px]">Contact</h1>
           </div>
 
