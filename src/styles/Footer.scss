@@ -1,0 +1,35 @@
+// .curved-edge {
+//   --c: 150px; /* control the curvature (works with percentage) */
+//   height: 300px;
+//   width: 100%;
+//   aspect-ratio: 3/2; /* Ensure it maintains a 3:2 ratio */
+//   mask: radial-gradient(60% var(--c) at top, #0000 calc(100% - 10px), #000);
+//   background-image: url('/Background_header.png'); /* Use the correct public path */
+//   background-size: cover;
+//   background-position: center;
+// }
+
+.curved-edge  {
+  --c: 150px;
+  height: 300px;
+  width: 100%;
+  mask: radial-gradient(60% var(--c) at top, #0000 calc(100% - 10px), #000);
+  background-image: url('/Background_header.png'); /* Use the correct public path */
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+@media (max-width: 752px) {
+  .curved-edge {
+    height: 450px;
+    width: 100%;
+    mask: radial-gradient(100% var(--c) at top, #0000 calc(100% - 10px), #000);
+    background-image: url('/Background_header.png'); /* Use the correct public path */
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+ 
+ 
