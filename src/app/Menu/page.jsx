@@ -37,15 +37,15 @@ const Menu = () => {
       <div className="font-bold flex items-center justify-center   space-x-3 mt-[100px]  ">
         <Image src={epinard} className="w-12" alt="À Propos" />
         <div>
-          <h1 className="text    text-[30px]">O’Gourmet Menu</h1>
-          <p className="text !text-[#5B9F21]   text-[15px]">
+          <h1 className="text    text-[20px] md:text-[25px] lg:text-[30px]">O’Gourmet Menu</h1>
+          <p className="text !text-[#5B9F21]   text-[13px] md:text-[14px] lg:text-[15px]">
             Ici, vous trouverez l'intégralité de notre menu
           </p>
         </div>
       </div>
-      <MenuSection slice={[0, 4]} />
+      <MenuSection slice={[]} />
       <div className="flex justify-center">
-        <Pagination />
+ 
       </div>
       <Footer />
     </div>

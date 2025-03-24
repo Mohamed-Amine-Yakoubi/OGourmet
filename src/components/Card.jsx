@@ -10,44 +10,44 @@ export const Card = ({
   Prix_Moyenne,
   Prix_Méga,
   Prix,
-  Catégorie
+  Catégorie,
 }) => {
   return (
-    <div className="  flex justify-center ">
-      <div className=" card w-[20rem] text   ">
+    <div className="  flex justify-center  ">
+      <div className=" card w-[20rem]   text group  ">
         <Image
-          className="card-img-top img-circle rounded-circle   "
+          className="card-img-top img-circle rounded-circle    "
           width={600}
           height={600}
           src={image}
           alt="Card image cap"
         />
-        <div className="card-block p-3 mt-5 ">
+        <div className="card-block p-4 mt-5 ">
           <div className="text-center my-2">
-          <p className=" text font-medium !text-gray-500 text-[14px]  ">
+            <p className=" text font-medium !text-gray-500 text-[12px]  ">
               {Catégorie}
             </p>
-            <h5 className="  font-bold   text  ">{Title}</h5>
-            <p className=" text font-medium !text-gray-500 text-[14px]  ">
+            <h5 className="  font-bold   text  text-[17px] my-2 ">{Title}</h5>
+            <p className=" text font-medium !text-gray-500 text-[13.5px] line-clamp-1   group-hover:line-clamp-2  transition-all duration-300">
               {subtitle}
             </p>
           </div>
-          <div className="flex items-center justify-between mt-7">
-            <div className="space-y-3">
+          <div className="mt-7   ">
+            <div className="flex items-center justify-between    ">
               {Prix_Seul && (
                 <p className="text-[14px] font-bold   ">
                   <span className="bg-[#ffbe33]  font-semibold  px-2 py-1 rounded-md mr-1 ">
                     Seul
                   </span>
-                  {Prix_Seul}
+                  {Prix_Seul}€
                 </p>
               )}
-              {Prix_Seul && (
+              {Prix_Menu && (
                 <p className="text-[14px] font-bold  ">
                   <span className="bg-[#5B9F21] font-semibold !text-white   px-2 py-1 rounded-md mr-1 ">
                     Menu
                   </span>
-                  {Prix_Menu}
+                  {Prix_Menu}€
                 </p>
               )}
 
@@ -56,30 +56,28 @@ export const Card = ({
                   <span className="bg-[#ffbe33] font-semibold    px-2 py-1 rounded-md mr-1 ">
                     Moyenne
                   </span>
-                  {Prix_Moyenne}
+                  {Prix_Moyenne}€
                 </p>
               )}
-                      {Prix_Méga && (
+              {Prix_Méga && (
                 <p className="text-[14px] font-bold  ">
                   <span className="bg-[#5B9F21] font-semibold !text-white   px-2 py-1 rounded-md mr-1 ">
-                  Méga
+                    Méga
                   </span>
-                  {Prix_Méga}
+                  {Prix_Méga}€
                 </p>
               )}
-                      {Prix && (
+            </div>{" "}
+            <div className="flex items-center justify-center    ">
+              {Prix && (
                 <p className="text-[14px] font-bold  ">
                   <span className="bg-[#5B9F21] font-semibold !text-white   px-2 py-1 rounded-md mr-1 ">
-                  Prix
+                    Prix
                   </span>
-                  {Prix}
+                  {Prix}€
                 </p>
               )}
-            </div>
-
-            <div className="text-black  bg-gray-200     font-medium rounded-lg text-sm px-5 py-2.5 text-center  ">
-              Add to cart
-            </div>
+            </div>{" "}
           </div>{" "}
         </div>
       </div>

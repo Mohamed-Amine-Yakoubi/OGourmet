@@ -30,7 +30,7 @@ const HorizontalMenu = ({ Catégorie ,onCategorySelect ,selectedCategory  }) => 
         onClick={() => onCategorySelect(null)} // Clear selection (show all items)
       className={`menu-item  ${selectedCategory=== null?'bg-[#ffbe33]':'bg-transparent'}`}
       >
-        All
+        Tout
       </button>
         {Catégorie.map((category, index) => (
           <button type="submit" onClick={() => onCategorySelect(category)} key={index} className={`menu-item  ${selectedCategory=== category?'bg-[#ffbe33]':'bg-transparent'}`}>

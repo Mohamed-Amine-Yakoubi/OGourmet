@@ -42,7 +42,9 @@ export const Header = () => {
           <div className="  ">
             <Link href="/">
               {" "}
-              <Image className="md:w-[60px] w-[50px]" src={logo} alt="" />
+              <Image className={`"   ${
+          isScrolled ? "md:w-[60px] w-[50px] " : "w-[100px]  "
+        }`}  src={logo} alt=""/>
             </Link>
           </div>
           <div className="hidden md:flex space-x-16 ">
