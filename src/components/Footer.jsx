@@ -52,7 +52,8 @@ export const Footer = () => {
         <div className="z-10    container mx-10 md:mx-0 flex flex-col md:flex-row justify-between items-center absolute  h-auto    md:bottom-7 bottom-9    md:space-y-0 space-y-7 ">
           <div>
             <Link href="/">
-              <Image className="md:w-[90px] w-[80px]" src={logo} alt="Logo" />
+     
+              <Image className="md:w-[90px] w-[80px]" src={logo}      alt="Logo de O'Gourmet"        loading="lazy"   />
             </Link>
           </div>
           <div className="navbar-links flex flex-row md:space-x-16 space-x-0 ">

@@ -1,102 +1,94 @@
 .menu-container {
-    display: flex;
-    align-items: center;
-    width: 100%;  /* Ensures it stretches to the container's full width */
-    padding: 0 16px;
-    max-width: 800px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensures it stretches to the container's full width */
+  padding: 0 16px;
+  max-width: 800px;
+}
+
+.menu {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 16px;
+  margin: 0;
+  width: max-content;
+}
+
+.menu-item {
+  flex-shrink: 0;
+  width: 80px; /* Adjust this width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding-block: 4px;
+  padding-inline: 50px;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #ffbe33;
   }
-  
+}
+
+.buttonArrow {
+  background-color: #f4f4f4;
+  color: #ffbe33;
+  padding: 8px;
+  border: 1px solid #dadada;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin-inline: 10px;
+}
+
+.buttonArrow:hover {
+  background-color: #484848;
+}
+
+.menu::-webkit-scrollbar {
+  display: none; /* Webkit-based browsers */
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 1000px) {
+  .menu-container {
+    width: 100%; /* Ensure the container takes full width on smaller screens */
+    padding: 0 16px; /* Adjust padding for smaller screens */
+  }
+
   .menu {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    justify-content: flex-start; /* Align items to the left */
-    gap: 16px;
-    margin: 0;
-    width: max-content;
+    gap: 16px; /* Reduce the gap between menu items */
   }
-  
+
   .menu-item {
-    flex-shrink: 0;
-    width: 80px;  /* Adjust this width */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    padding-block: 4px;
-    padding-inline: 50px;
-    white-space: nowrap;
-  
-    &:hover {
-      background-color: #ffbe33;
-     
-    }
-  }
- 
-   .buttonArrow {
-    background-color: #f4f4f4;
-    color: #ffbe33;
-    padding: 8px;
-    border: 1px solid #dadada;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    margin-inline: 10px;
-  }
-  
-  .buttonArrow:hover {
-    background-color: #484848;
-  }
-  
-  .menu::-webkit-scrollbar {
-    display: none; /* Webkit-based browsers */
-  }
-  
-  /* Add media queries for responsiveness */
-  @media (max-width: 1000px) {
-    .menu-container {
-      width: 100%; /* Ensure the container takes full width on smaller screens */
-      padding: 0 16px; /* Adjust padding for smaller screens */
-    }
-  
-    .menu {
-      gap: 16px; /* Reduce the gap between menu items */
-    }
-  
-    .menu-item {
-      width: 60px; /* Decrease the size of menu items on smaller screens */
-      padding-inline: 13px; /* Adjust padding for smaller screens */
-    }
-  
-    button {
-      padding: 6px 12px; /* Smaller button padding on smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .menu-item {
-      width: 50px; /* Even smaller width for very small screens */
-      padding-inline: 8px; /* Further decrease padding */
-    }
-  
-    
-  }
-  
-  .Background_header_menu{
- 
- 
-    background-position: center;
-    background-repeat: no-repeat;
-
-    position: relative;
-    width: 100vw;
-    height: auto;
-    background-size: 100%;
- 
- 
-  
-  
+    width: 60px; /* Decrease the size of menu items on smaller screens */
+    padding-inline: 13px; /* Adjust padding for smaller screens */
   }
 
- 
-  
+  button {
+    padding: 6px 12px; /* Smaller button padding on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-item {
+    width: 50px; /* Even smaller width for very small screens */
+    padding-inline: 8px; /* Further decrease padding */
+  }
+}
+
+.Background_header_menu {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background-size: 100%;
+}
+
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}

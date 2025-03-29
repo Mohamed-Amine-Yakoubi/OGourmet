@@ -13,16 +13,19 @@ export const Card = ({
   Catégorie,
 }) => {
   return (
-    <div className="  flex justify-center  ">
-      <div className=" card w-[20rem]   text group  ">
-        <Image
-          className="card-img-top img-circle rounded-circle    "
-          width={600}
-          height={600}
-          src={image}
-          alt="Card image cap"
-        />
-        <div className="card-block p-4 mt-5 ">
+    <div className="  flex justify-center    ">
+      <div className=" card w-[20rem]      text group  ">
+        
+          <Image
+            className="card-img-top    "
+            width={600}
+            height={600}
+            src={image}
+            alt={`${Title} ${subtitle}`}
+            loading="lazy" 
+          />
+       
+        <div className="card-block p-4 mt-5 z-50">
           <div className="text-center my-2">
             <p className=" text font-medium !text-gray-500 text-[12px]  ">
               {Catégorie}

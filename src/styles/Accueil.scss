@@ -1,36 +1,5 @@
 /* Default Styles for Background */
-.background_header {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  z-index: 10;
-
-  /* Background image */
-  background-image: url("../../public/Background_header.png"); /* Add your image URL */
-  background-size: cover; /* Makes the background responsive */
-  background-position: center;
-  background-repeat: no-repeat; /* Avoid background repetition */
-}
-
-/* Section Header */
-.section_header {
-  padding-top: 110px;
-  width: 100%;
-  max-height: 100vh; /* Prevents overflow */
-  overflow: hidden;
-}
-
-/* Image inside .background_header */
-.background_header img {
-  position: absolute;
-  left: 30%;
-  top: 14%;
-  bottom: 0;
-  width: auto;
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover; /* Ensures image covers the container */
-}
+ 
 
 /****************section_contact***********************/
 
@@ -88,22 +57,7 @@ padding-inline: 80px;
 }
 /* Media query for screens less than 1000px */
 @media (max-width: 1200px) {
-  .background_header {
-    /* Increase the height for smaller screens to make the background appear longer */
-    height: 100vh; /* Adjust as needed */
-    background-size: cover; /* Keeps the background image responsive */
-    background-position: center; /* Keeps the background aligned */
-  }
-
-  .background_header img {
-    position: absolute;
-    left: 0;
-    top: 70%; /* Adjust the position for smaller screens */
-    width: 100%; /* Makes sure the image takes full width */
-    height: auto; /* Keeps the proportions of the image */
-    max-width: 100%;
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-  }
+ 
   .section_contact {
     position: relative;
     width: 100%;
