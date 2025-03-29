@@ -12,6 +12,7 @@ import { Footer } from "../../components/Footer";
 import { MenuSection } from "../../components/MenuSection";
 import Image from "next/image";
 import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const Accueil = () => {
   const [formData, setFormData] = useState({
@@ -187,37 +188,75 @@ export const Accueil = () => {
       <Header />
 
       {/* Menu section */}
-      <div className="font-bold flex items-center justify-center space-x-3 mt-[100px]">
-        <Image src={epinard} className="w-12" alt="image À Propos de O'Gourmet"       loading="lazy" />
+      <motion.div
+        className="font-bold flex items-center justify-center space-x-3 mt-[100px]"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <Image
+          src={epinard}
+          className="w-12"
+          alt="image À Propos de O'Gourmet"
+          loading="lazy"
+        />
         <h1 className="text text-[30px]">Notre Menu</h1>
-      </div>
-      <MenuSection slice={[0, 8]} etat={false} />
-      <div className="flex justify-center mt-14">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <MenuSection slice={[0, 8]} etat={false} />
+      </motion.div>
+
+      <motion.div
+        className="flex justify-center mt-14"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
         <Link
           href="/Menu"
           className="text font-semibold bg-[#ffbe33] px-5 py-2 rounded-full text-[14px]"
         >
           Voir plus ...
         </Link>
-      </div>
+      </motion.div>
 
       {/* À propos section */}
-      <section
+      <motion.section
         id="À Propos"
         className="mx-auto py-[100px] px-6 lg:px-20 flex flex-col lg:flex-row items-center Section_Propos   space-y-10 lg:space-y-0 lg:space-x-10"
+ 
       >
-        <div className="flex justify-center w-full lg:w-1/2">
+        <motion.div
+          className="flex justify-center w-full lg:w-1/2"
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <Image
             src={Photo_propos}
             className="w-full h-auto max-w-2xl lg:max-w-full"
-           
-            alt="image À Propos de O'Gourmet"       loading="lazy"
+            alt="image À Propos de O'Gourmet"
+            loading="lazy"
           />
-        </div>
+        </motion.div>
 
-        <div className="flex flex-col justify-center text-center lg:text-left space-y-6 w-full lg:w-1/2">
+        <motion.div
+          className="flex flex-col justify-center text-center lg:text-left space-y-6 w-full lg:w-1/2"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <div className="font-bold flex items-center justify-center lg:justify-start space-x-3">
-            <Image src={epinard} className="w-12"   alt="image À Propos de O'Gourmet"       loading="lazy" />
+            <Image
+              src={epinard}
+              className="w-12"
+              alt="image À Propos de O'Gourmet"
+              loading="lazy"
+            />
             <h1 className="text text-[30px]">À Propos de nous</h1>
           </div>
           <p className="text text-[15px] leading-[40px]">
@@ -229,52 +268,68 @@ export const Accueil = () => {
             chaque bouchée est un plaisir.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center text font-semibold">
-            <div className="space-y-2">
-              <Image
-                src={fraicheur_icon}
-                className="w-20 mx-auto"
-                alt="Qualité et fraîcheur"
-                   loading="lazy"
-              />
-              <p>Qualité et fraîcheur</p>
-            </div>
-            <div className="space-y-2">
-              <Image
-                src={rapidite_icon}
-                className="w-20 mx-auto"
-                alt="Rapidité et efficacité"
-                   loading="lazy"
-              />
-              <p>Rapidité et efficacité</p>
-            </div>
-            <div className="space-y-2">
-              <Image
-                src={passion_icon}
-                className="w-20 mx-auto"
-                alt="Convivialité et passion"
-                   loading="lazy"
-              />
-              <p>Convivialité et passion</p>
-            </div>
+            {[fraicheur_icon, rapidite_icon, passion_icon].map(
+              (icon, index) => (
+                <motion.div
+                  key={index}
+                  className="space-y-2"
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.2, duration: 0.8 }}
+                >
+                  <Image src={icon} className="w-20 mx-auto" alt="icon" />
+                  <p>
+                    {
+                      [
+                        "Qualité et fraîcheur",
+                        "Rapidité et efficacité",
+                        "Convivialité et passion",
+                      ][index]
+                    }
+                  </p>
+                </motion.div>
+              )
+            )}
           </div>
-        </div>
-      </section>
+        </motion.div>
+      </motion.section>
 
       {/* Contact section */}
-      <section className="mx-auto   section_contact" id="Contact">
-        <div className="z-10 relative">
-          <div className="font-bold flex items-center justify-center space-x-3">
-            <Image src={epinard} className="w-12" alt="image de Contact de O'Gourmet"       loading="lazy" />
-            <h1 className="text !text-white text-[30px]">Contact</h1>
-          </div>
+      <motion.section
+        className="mx-auto   section_contact"
+        id="Contact"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <motion.div className="z-10 relative">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="font-bold flex items-center justify-center space-x-3">
+              <Image
+                src={epinard}
+                className="w-12"
+                alt="image de Contact de O'Gourmet"
+                loading="lazy"
+              />
+              <h1 className="text !text-white text-[30px]">Contact</h1>
+            </div>
 
-          <h2 className="text !text-white text-[18px] text-center font-medium py-3">
-            Vous avez des questions ?
-            <span className="text !text-[#ffbe33]"> Contactez-nous ! </span>
-          </h2>
-
+            <h2 className="text !text-white text-[18px] text-center font-medium py-3">
+              Vous avez des questions ?
+              <span className="text !text-[#ffbe33]"> Contactez-nous ! </span>
+            </h2>
+          </motion.div>
           <div className="flex flex-col lg:flex-row justify-center items-center mt-10 space-y-10 lg:space-y-0 lg:space-x-20">
-            <div className="w-full lg:w-1/2">
+            <motion.div
+              className="w-full lg:w-1/2"
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
               <form onSubmit={handleSubmit}>
                 <div className="grid gap-6 mb-6 md:grid-cols-2">
                   <Input
@@ -328,9 +383,14 @@ export const Accueil = () => {
                   Envoyer
                 </button>
               </form>
-            </div>
+            </motion.div>
 
-            <div className="w-full lg:w-1/3">
+            <motion.div
+              className="w-full lg:w-1/3"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
               <div className="section_horaire w-full px-8 py-10 space-y-8">
                 <h2 className="text !text-white text-[18px] text-start font-medium">
                   Horaires
@@ -357,10 +417,10 @@ export const Accueil = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
-        </div>
-      </section>
+        </motion.div>
+      </motion.section>
 
       <Footer />
     </div>

@@ -8,6 +8,7 @@ import { Pagination } from "./Pagination";
 
 import SearchBar from "./SearchBar";
 import { DropDown } from "./DropDown";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const MenuSection = ({ slice, etat = true }) => {
   const [menu, setMenu] = useState([]);
@@ -64,19 +65,34 @@ export const MenuSection = ({ slice, etat = true }) => {
   return (
     <section className="mx-5  ">
       {/* Barre de recherche */}
+
       {etat === true && (
-        <div className="mt-12 mx-10">
+        <motion.div className="mt-12 mx-10"         initial={{ x: "20%", opacity: 0 }} // Position initiale
+        animate={{ x: 0, opacity: 1 }} // Position finale
+        exit={{
+          x: "20%",
+          opacity: 0,
+          transition: { duration: 0.8, ease: "easeInOut" },
+        }} // Animation de sortie
+        transition={{ duration: 0.8, ease: "easeInOut" }}>
           <SearchBar onSearch={setSearchTerm} />
-        </div>
+        </motion.div>
       )}
       {/* Menu horizontal */}
-      <div className="flex justify-center mt-16 mb-10 items-center">
+      <motion.div className="flex justify-center mt-16 mb-10 items-center"       initial={{ x: "-20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "-20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}>
         <HorizontalMenu
           Catégorie={categories}
           onCategorySelect={setSelectedCategory}
           selectedCategory={selectedCategory}
         />
-      </div>
+      </motion.div>
       {/* selected Category */}
       <div className="flex justify-center   items-center    ">
         {selectedCategory == "Tacos" && (
@@ -131,34 +147,49 @@ export const MenuSection = ({ slice, etat = true }) => {
       </div>
       {/* Affichage des cartes */}
 
-      <div className="flex justify-center items-center mt-[60px]">
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-10 md:space-y-5 space-y-10">
-          {slicedMenu.length > 0 ? (
-            slicedMenu
-              .sort(() => Math.random() - 0.5)
-              .map((item, index) => (
-                <Card
-                  key={index}
-                  Title={item.Libellé}
-                  Catégorie={item.Catégorie}
-                  image={item.Image}
-                  subtitle={item.Description}
-                  Prix_Seul={item.Prix_Seul}
-                  Prix_Menu={item.Prix_Menu}
-                  Prix_Moyenne={item.Prix_Moyenne}
-                  Prix_Méga={item.Prix_Méga}
-                  Prix={item.Prix}
-                />
-              ))
-          ) : (
-            <div className="   w-screen   ">
-              <p className="text-center  mb-20 ">
-              Aucun résultat disponible pour votre recherche chez O'Gourmet.
-              </p>{" "}
-            </div>
-          )}
+      <AnimatePresence mode="popLayout">
+        <div className="flex justify-center items-center mt-[60px]">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-10 md:space-y-5 space-y-10">
+            {slicedMenu.length > 0 ? (
+              slicedMenu
+                .sort(() => Math.random() - 0.5)
+                .map((item, index) => (
+                  <motion.div
+                    key={item.id}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Card
+                      Title={item.Libellé}
+                      Catégorie={item.Catégorie}
+                      image={item.Image}
+                      subtitle={item.Description}
+                      Prix_Seul={item.Prix_Seul}
+                      Prix_Menu={item.Prix_Menu}
+                      Prix_Moyenne={item.Prix_Moyenne}
+                      Prix_Méga={item.Prix_Méga}
+                      Prix={item.Prix}
+                    />
+                  </motion.div>
+                ))
+            ) : (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="w-screen"
+              >
+                <p className="text-center mb-20">
+                  Aucun résultat disponible pour votre recherche chez O'Gourmet.
+                </p>
+              </motion.div>
+            )}
+          </div>
         </div>
-      </div>
+      </AnimatePresence>
 
       {/* Pagination */}
       {etat === true && (

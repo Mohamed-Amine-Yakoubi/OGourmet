@@ -9,15 +9,25 @@ import Image from "next/image";
 import epinard from "../../../public/epinard.png";
 import { Pagination } from "../../components/Pagination";
 import { FaSearch } from "react-icons/fa";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Menu = () => {
   return (
     <div className=" ">
       <Navbar />
 
-   
-      <div className="font-bold flex items-center justify-center   space-x-3 mt-[100px]  ">
-        <Image src={epinard} className="w-12"   alt="image menu de O'Gourmet"       loading="lazy"/>
+      <motion.div
+        className="font-bold flex items-center justify-center   space-x-3 mt-[100px]  "
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <Image
+          src={epinard}
+          className="w-12"
+          alt="image menu de O'Gourmet"
+          loading="lazy"
+        />
         <div>
           <h1 className="text    text-[20px] md:text-[25px] lg:text-[30px]">
             O’Gourmet Menu
@@ -26,9 +36,14 @@ const Menu = () => {
             Ici, vous trouverez l'intégralité de notre menu
           </p>
         </div>
-      </div>
-     
-      <MenuSection slice={[]} />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <MenuSection slice={[]} />
+      </motion.div>
       <div className="flex justify-center"></div>
       <Footer />
     </div>

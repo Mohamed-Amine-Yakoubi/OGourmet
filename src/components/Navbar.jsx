@@ -21,7 +21,17 @@ export const Navbar = () => {
       >
         {" "}
         <div className="container mx-8 md:mx-0 flex justify-between items-center">
-          <div className="flex items-center">
+          <motion.div
+            className="flex items-center"
+            initial={{ x: "-20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "-20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
             <Link href="/">
               <Image
                 className={`transition-all duration-300   md:w-[60px] w-[50px] 
@@ -31,10 +41,20 @@ export const Navbar = () => {
                 loading="lazy"
               />
             </Link>
-          </div>
+          </motion.div>
 
           {/* Desktop Menu */}
-          <div className="  hidden  md:flex space-x-16">
+          <motion.div
+            className="  hidden  md:flex space-x-16"
+            initial={{ x: "20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
             <Link href="/" className="block p-2 header_title">
               Accueil
             </Link>
@@ -47,7 +67,7 @@ export const Navbar = () => {
             <Link href="/#Contact" className="block p-2 header_title">
               Contact
             </Link>
-          </div>
+          </motion.div>
 
           {/* Mobile Menu Button */}
           {!isMenuOpen && (
@@ -79,7 +99,17 @@ export const Navbar = () => {
             >
               <IoClose />
             </button>
-            <div className="flex justify-center">
+            <motion.div
+              className="flex justify-center"
+              initial={{ x: "-20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "-20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+            >
               <Link href="/">
                 <Image
                   className="w-[90px]"
@@ -88,9 +118,19 @@ export const Navbar = () => {
                   loading="lazy"
                 />
               </Link>
-            </div>
+            </motion.div>
 
-            <div className="space-y-4 mt-16">
+            <motion.div
+              className="space-y-4 mt-16"
+              initial={{ x: "20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+            >
               <Link
                 href="/"
                 className="block p-2 text-center"
@@ -120,7 +160,17 @@ export const Navbar = () => {
                 Contact
               </Link>
 
-              <div className="social-icons  flex  flex-row  space-x-3  justify-center mt-16 ">
+              <motion.div
+                className="social-icons  flex  flex-row  space-x-3  justify-center mt-16 "
+                initial={{ x: "-20%", opacity: 0 }} // Position initiale
+                animate={{ x: 0, opacity: 1 }} // Position finale
+                exit={{
+                  x: "-20%",
+                  opacity: 0,
+                  transition: { duration: 0.8, ease: "easeInOut" },
+                }} // Animation de sortie
+                transition={{ duration: 0.8, ease: "easeInOut" }}
+              >
                 <Link href="/" className="block p-2 text-[25px] text-[#ffbe33]">
                   <FaFacebook />
                 </Link>
@@ -136,8 +186,8 @@ export const Navbar = () => {
                 >
                   <FaSnapchatGhost />
                 </Link>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -156,11 +206,18 @@ export const Navbar = () => {
         {/* Contenu du header (ex: titre) */}
 
         <div className="absolute inset-0 flex flex-col    justify-center  items-center text-white   ">
-          <div className="flex  lg:w-1/2 w-full  lg:justify-start   justify-center   ">
+          <motion.div className="flex  lg:w-1/2 w-full  lg:justify-start   justify-center   "  initial={{ x: "-20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "-20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}>
             <h1 className="text-[55px] md:text-[70px] lg:text-[80px] text-center text_header !text-[#5B9F21]">
               <span className="text-[#484848]">Accueil-</span>Menu
             </h1>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

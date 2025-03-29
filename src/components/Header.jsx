@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
 import "../styles/Header.scss";
+
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export const Header = () => {
     };
   }, []);
   return (
-    <div>
+    <motion.section>
       {/* Navbar */}
       <nav
         className={`fixed text flex justify-center w-full  z-50 top-0 transition-all duration-300 ${
@@ -38,10 +39,20 @@ export const Header = () => {
         }
         ${isMenuOpen ? "py-0" : "py-1.5"}`}
       >
-        <div className="container mx-8 md:mx-0 flex justify-between items-center">
+        <motion.div className="container mx-8 md:mx-0 flex justify-between items-center">
           {/* Logo */}
 
-          <div className="flex items-center">
+          <motion.div
+            className="flex items-center"
+            initial={{ x: "-20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "-20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
             <Link href="/">
               <Image
                 className={`transition-all duration-300 ${
@@ -49,13 +60,23 @@ export const Header = () => {
                 } ${isMenuOpen && "hidden md:block"}`}
                 src={logo}
                 alt="Logo de O'Gourmet"
-                       loading="lazy" 
+                loading="lazy"
               />
             </Link>
-          </div>
+          </motion.div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-16">
+          <motion.div
+            className="hidden md:flex space-x-16"
+            initial={{ x: "20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
             <Link href="/" className="block p-2 header_title">
               Accueil
             </Link>
@@ -68,7 +89,7 @@ export const Header = () => {
             <Link href="#Contact" className="block p-2 header_title">
               Contact
             </Link>
-          </div>
+          </motion.div>
 
           {/* Mobile Menu Button */}
           {!isMenuOpen && (
@@ -79,7 +100,7 @@ export const Header = () => {
               <IoMenu />
             </button>
           )}
-        </div>
+        </motion.div>
       </nav>
 
       {/* Mobile Menu Dropdown */}
@@ -102,13 +123,32 @@ export const Header = () => {
             >
               <IoClose />
             </button>
-            <div className="flex justify-center">
+            <motion.div className="flex justify-center"  initial={{ x: "-20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "-20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}>
               <Link href="/">
-                <Image className="w-[90px]" src={logo}       alt="Logo de O'Gourmet"  loading="lazy"  />
+                <Image
+                  className="w-[90px]"
+                  src={logo}
+                  alt="Logo de O'Gourmet"
+                  loading="lazy"
+                />
               </Link>
-            </div>
+            </motion.div>
 
-            <div className="space-y-4 mt-16">
+            <motion.div className="space-y-4 mt-16"  initial={{ x: "20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}>
               <Link
                 href="/"
                 className="block p-2 text-center"
@@ -138,7 +178,14 @@ export const Header = () => {
                 Contact
               </Link>
 
-              <div className="social-icons  flex  flex-row  space-x-3  justify-center mt-16 ">
+              <motion.div className="social-icons  flex  flex-row  space-x-3  justify-center mt-16 "  initial={{ x: "-20%", opacity: 0 }} // Position initiale
+              animate={{ x: 0, opacity: 1 }} // Position finale
+              exit={{
+                x: "-20%",
+                opacity: 0,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              }} // Animation de sortie
+              transition={{ duration: 0.8, ease: "easeInOut" }}>
                 <Link href="/" className="block p-2 text-[25px] text-[#ffbe33]">
                   <FaFacebook />
                 </Link>
@@ -154,15 +201,25 @@ export const Header = () => {
                 >
                   <FaSnapchatGhost />
                 </Link>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
 
-      <div className="background_header   ">
+      <section className="background_header   ">
         <div className=" section_header     ">
-          <div className="    section_1    ">
+          <motion.div
+            className="    section_1    "
+            initial={{ x: "-20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "-20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
             <h1 className="text_header leading-[80px] ">
               <span className="text-[50px] sm:text-[60px] md:text-[70px] lg:text-[80px]">
                 Bienvenue chez
@@ -183,13 +240,27 @@ export const Header = () => {
             <button className="!bg-[#ffbe33] p-2 px-5 rounded-full text-dark text-[15px]">
               Notre Menu
             </button>
-          </div>
-          <div className="section_2  ">
-          <Image className=" " src={header_photo} alt="O'Gourmet"   loading="lazy"  />
+          </motion.div>
+          <motion.div
+            className="section_2  "
+            initial={{ x: "20%", opacity: 0 }} // Position initiale
+            animate={{ x: 0, opacity: 1 }} // Position finale
+            exit={{
+              x: "20%",
+              opacity: 0,
+              transition: { duration: 0.8, ease: "easeInOut" },
+            }} // Animation de sortie
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
+            <Image
+              className=" "
+              src={header_photo}
+              alt="O'Gourmet"
+              loading="lazy"
+            />
+          </motion.div>
         </div>
-        </div>
- 
-      </div>
-    </div>
+      </section>
+    </motion.section>
   );
 };
