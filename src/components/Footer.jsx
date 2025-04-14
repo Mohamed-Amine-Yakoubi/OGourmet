@@ -72,6 +72,7 @@ export const Footer = () => {
                 src={logo}
                 alt="Logo de O'Gourmet"
                 loading="lazy"
+            
               />
             </Link>
           </div>

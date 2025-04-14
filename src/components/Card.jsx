@@ -23,6 +23,7 @@ export const Card = ({
             src={image}
             alt={`${Title} ${subtitle}`}
             loading="lazy" 
+        
           />
        
         <div className="card-block p-4 mt-5 z-50">

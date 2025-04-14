@@ -199,6 +199,8 @@ export const Accueil = () => {
           className="w-12"
           alt="image À Propos de O'Gourmet"
           loading="lazy"
+          
+
         />
         <h1 className="text text-[30px]">Notre Menu</h1>
       </motion.div>
@@ -241,6 +243,8 @@ export const Accueil = () => {
             className="w-full h-auto max-w-2xl lg:max-w-full"
             alt="image À Propos de O'Gourmet"
             loading="lazy"
+          
+
           />
         </motion.div>
 
@@ -256,6 +260,8 @@ export const Accueil = () => {
               className="w-12"
               alt="image À Propos de O'Gourmet"
               loading="lazy"
+          
+
             />
             <h1 className="text text-[30px]">À Propos de nous</h1>
           </div>
@@ -277,7 +283,7 @@ export const Accueil = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.2, duration: 0.8 }}
                 >
-                  <Image src={icon} className="w-20 mx-auto" alt="icon" />
+                  <Image src={icon} className="w-20 mx-auto" alt="icon"    loading="lazy"    />
                   <p>
                     {
                       [
@@ -314,6 +320,7 @@ export const Accueil = () => {
                 className="w-12"
                 alt="image de Contact de O'Gourmet"
                 loading="lazy"
+                
               />
               <h1 className="text !text-white text-[30px]">Contact</h1>
             </div>

@@ -64,7 +64,7 @@
 
   .menu-item {
     width: 60px; /* Decrease the size of menu items on smaller screens */
-    padding-inline: 13px; /* Adjust padding for smaller screens */
+    padding-inline: 50px; /* Adjust padding for smaller screens */
   }
 
   button {
@@ -74,8 +74,8 @@
 
 @media (max-width: 480px) {
   .menu-item {
-    width: 50px; /* Even smaller width for very small screens */
-    padding-inline: 8px; /* Further decrease padding */
+    width: 40px; /* Even smaller width for very small screens */
+    padding-inline: 50px; /* Further decrease padding */
   }
 }
 

@@ -1,9 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.scss";
- 
- 
- 
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,37 +12,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "O'Gourmet - Restaurent Fastfood à Saint-Nazaire",
-  description: "Découvrez O'Gourmet, un restaurent fastfood à Saint-Nazaire avec une large gamme de burgers, pizzas et plus.",
+  title: "O'Gourmet - Restaurant Fast Food à Saint-Nazaire",
+  description:
+    "Découvrez O'Gourmet, votre restaurant fast food à Saint-Nazaire ! Savourez nos burgers gourmets, pizzas croustillantes et bien plus!",
+  keywords: "restaurant, fast food, Saint-Nazaire, burgers, pizzas, livraison",
+  robots: "index, follow", // ✅ Important pour l'indexation Google
   openGraph: {
-    title: "O'Gourmet - Restaurent Fastfood à Saint-Nazaire",
-    description: "Des plats délicieux et rapides, avec livraison à domicile. Commandez dès aujourd'hui !",
+    title: "O'Gourmet - Restaurant Fast Food à Saint-Nazaire",
+    description:
+      "Plats savoureux, service rapide et livraison à domicile. Profitez d'une expérience culinaire unique avec O'Gourmet !",
     images: [
       {
-        url: "../../public/logo.png",
-        width: 800,
-        height: 600,
-        alt: "O'Gourmet Restaurent Fastfood",
+        url: "/logo.png", // Assurez-vous que l'image est bien dans `/public`
+        width: 1200,
+        height: 630,
+        alt: "Logo O'Gourmet - Restaurant Fast Food",
       },
     ],
     url: "https://ogourmet.com",
     siteName: "O'Gourmet",
-  }  
+    type: "website",
+    locale: "fr_FR",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  alternates: {
+    canonical: "https://ogourmet.com", // ✅ Canonical pour éviter le duplicate content
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-    <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="O'Gourmet - Restaurent Fastfood à Saint-Nazaire" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="any" />
-  
-      </Head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black `}
-      >
+    <html lang="fr">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}>
         {children}
       </body>
     </html>

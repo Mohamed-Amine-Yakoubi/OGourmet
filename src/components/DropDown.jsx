@@ -23,6 +23,7 @@ export const DropDown = ({ libellé = [], Title, image = [] }) => {
             src={image[0]}
           alt={`${Title} `}
             loading="lazy" 
+      
           />
         )}
         <span>{Title} </span>
@@ -48,7 +49,7 @@ export const DropDown = ({ libellé = [], Title, image = [] }) => {
                       src={image[index]}
                       alt={item}
             loading="lazy" 
-
+        
                     />
                   )}
                   <p>{item}</p>

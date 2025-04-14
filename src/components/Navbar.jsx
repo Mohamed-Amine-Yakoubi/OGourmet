@@ -39,6 +39,7 @@ export const Navbar = () => {
                 src={logo}
                 alt="Logo de O'Gourmet"
                 loading="lazy"
+                
               />
             </Link>
           </motion.div>
@@ -116,6 +117,7 @@ export const Navbar = () => {
                   src={logo}
                   alt="Logo de O'Gourmet"
                   loading="lazy"
+                  
                 />
               </Link>
             </motion.div>
@@ -202,6 +204,9 @@ export const Navbar = () => {
           objectFit="cover"
           quality={100}
           className="absolute inset-0"
+          loading="lazy"
+
+          
         />
         {/* Contenu du header (ex: titre) */}
 

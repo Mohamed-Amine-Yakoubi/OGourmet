@@ -27,6 +27,7 @@ const Menu = () => {
           className="w-12"
           alt="image menu de O'Gourmet"
           loading="lazy"
+          
         />
         <div>
           <h1 className="text    text-[20px] md:text-[25px] lg:text-[30px]">
