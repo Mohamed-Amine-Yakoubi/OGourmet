@@ -3,7 +3,7 @@
     "id": 1,
     "Libellé": "Viande hachée",
 
-    "Image": "/Tacos/Viande/Viande_Hachée.png",
+    "Image": "/Tacos/Viande/Viande_Hachée.webp",
 
     "Catégorie": "Tacos",
   
@@ -13,7 +13,7 @@
     "id": 2,
     "Libellé": "Kebab",
 
-    "Image": "/Tacos/Viande/Kebab.png",
+    "Image": "/Tacos/Viande/Kebab.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -22,7 +22,7 @@
     "id": 3,
     "Libellé": "Tenders",
 
-    "Image": "/Tacos/Viande/Tenders.png",
+    "Image": "/Tacos/Viande/Tenders.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -31,7 +31,7 @@
     "id": 4,
     "Libellé": "Cordon bleu",
 
-    "Image": "/Tacos/Viande/Cordon_Bleu.png",
+    "Image": "/Tacos/Viande/Cordon_Bleu.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -40,7 +40,7 @@
     "id": 5,
     "Libellé": "Nuggets",
 
-    "Image": "/Tacos/Viande/Nuggets.png",
+    "Image": "/Tacos/Viande/Nuggets.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -49,7 +49,7 @@
     "id": 6,
     "Libellé": "Merguez",
 
-    "Image": "/Tacos/Viande/Merguez.png",
+    "Image": "/Tacos/Viande/Merguez.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -58,7 +58,7 @@
     "id": 7,
     "Libellé": "Kefta",
 
-    "Image": "/Tacos/Viande/Kefta.png",
+    "Image": "/Tacos/Viande/Kefta.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -67,7 +67,7 @@
     "id": 8,
     "Libellé": "Bacon",
 
-    "Image": "/Tacos/Viande/Bacon.png",
+    "Image": "/Tacos/Viande/Bacon.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -76,7 +76,7 @@
     "id": 9,
     "Libellé": "Poulet fumé",
 
-    "Image": "/Tacos/Viande/Poulet_Fumé.png",
+    "Image": "/Tacos/Viande/Poulet_Fumé.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -85,7 +85,7 @@
     "id": 10,
     "Libellé": "Jambon",
 
-    "Image": "/Tacos/Viande/Jambon.png",
+    "Image": "/Tacos/Viande/Jambon.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -94,7 +94,7 @@
     "id": 11,
     "Libellé": "Lardons",
 
-    "Image": "/Tacos/Viande/Lardons.png",
+    "Image": "/Tacos/Viande/Lardons.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Viande"
@@ -103,7 +103,7 @@
     "id": 12,
     "Libellé": "Mayonnaise",
 
-    "Image": "/Tacos/Sauce/Mayonnaise.png",
+    "Image": "/Tacos/Sauce/Mayonnaise.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -111,7 +111,7 @@
     "id": 13,
     "Libellé": "Harissa",
 
-    "Image": "/Tacos/Sauce/Harissa.png",
+    "Image": "/Tacos/Sauce/Harissa.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -119,7 +119,7 @@
     "id": 14,
     "Libellé": "Biggy",
 
-    "Image": "/Tacos/Sauce/Biggy.png",
+    "Image": "/Tacos/Sauce/Biggy.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -127,7 +127,7 @@
     "id": 15,
     "Libellé": "Barbecue",
 
-    "Image": "/Tacos/Sauce/Barbecue.png",
+    "Image": "/Tacos/Sauce/Barbecue.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -135,7 +135,7 @@
     "id": 16,
     "Libellé": "Algérienne",
 
-    "Image": "/Tacos/Sauce/Algérienne.png",
+    "Image": "/Tacos/Sauce/Algérienne.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -143,7 +143,7 @@
     "id": 17,
     "Libellé": "Curry",
 
-    "Image": "/Tacos/Sauce/Curry.png",
+    "Image": "/Tacos/Sauce/Curry.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -151,7 +151,7 @@
     "id": 18,
     "Libellé": "Andalous",
 
-    "Image": "/Tacos/Sauce/Andalous.png",
+    "Image": "/Tacos/Sauce/Andalous.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -159,7 +159,7 @@
     "id": 19,
     "Libellé": "Ketchup",
 
-    "Image": "/Tacos/Sauce/Ketchup.png",
+    "Image": "/Tacos/Sauce/Ketchup.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -167,7 +167,7 @@
     "id": 20,
     "Libellé": "Moutarde",
 
-    "Image": "/Tacos/Sauce/Moutarde.png",
+    "Image": "/Tacos/Sauce/Moutarde.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -175,7 +175,7 @@
     "id": 21,
     "Libellé": "Samouraï",
 
-    "Image": "/Tacos/Sauce/Samouraï.png",
+    "Image": "/Tacos/Sauce/Samouraï.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Sauce"
@@ -184,7 +184,7 @@
     "id": 22,
     "Libellé": "Cheddar",
 
-    "Image": "/Tacos/SuppLément/Cheddar.png",
+    "Image": "/Tacos/SuppLément/Cheddar.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -192,7 +192,7 @@
     "id": 23,
     "Libellé": "Oeuf",
 
-    "Image": "/Tacos/SuppLément/Oeuf.png",
+    "Image": "/Tacos/SuppLément/Oeuf.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -200,7 +200,7 @@
     "id": 24,
     "Libellé": "Fromage",
 
-    "Image": "/Tacos/SuppLément/Fromage.png",
+    "Image": "/Tacos/SuppLément/Fromage.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -208,7 +208,7 @@
     "id": 25,
     "Libellé": "Gruyère",
 
-    "Image": "/Tacos/SuppLément/Gruyère.png",
+    "Image": "/Tacos/SuppLément/Gruyère.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -216,7 +216,7 @@
     "id": 26,
     "Libellé": "Raclette",
 
-    "Image": "/Tacos/SuppLément/Raclette.png",
+    "Image": "/Tacos/SuppLément/Raclette.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -224,7 +224,7 @@
     "id": 27,
     "Libellé": "Boursin",
 
-    "Image": "/Tacos/SuppLément/Boursin.png",
+    "Image": "/Tacos/SuppLément/Boursin.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -232,7 +232,7 @@
     "id": 28,
     "Libellé": "Chèvre",
 
-    "Image": "/Tacos/SuppLément/Chèvre.png",
+    "Image": "/Tacos/SuppLément/Chèvre.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -240,7 +240,7 @@
     "id": 29,
     "Libellé": "Frites",
 
-    "Image": "/Tacos/SuppLément/Frites.png",
+    "Image": "/Tacos/SuppLément/Frites.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "SuppLément"
@@ -249,7 +249,7 @@
     "id": 30,
     "Libellé": "Chévre Miel",
 
-    "Image": "/Tacos/Tacos_Gratiné/Chévre_Miel.png",
+    "Image": "/Tacos/Tacos_Gratiné/Chévre_Miel.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Tacos_Gratiné"
@@ -257,7 +257,7 @@
     "id": 29,
     "Libellé": "Viande",
 
-    "Image": "/Tacos/Tacos_Gratiné/Viande.png",
+    "Image": "/Tacos/Tacos_Gratiné/Viande.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Tacos_Gratiné"
@@ -265,7 +265,7 @@
     "id": 29,
     "Libellé": "Fromage",
 
-    "Image": "/Tacos/Tacos_Gratiné/Fromage.png",
+    "Image": "/Tacos/Tacos_Gratiné/Fromage.webp",
 
     "Catégorie": "Tacos",
     "Sous_Catégorie": "Tacos_Gratiné"

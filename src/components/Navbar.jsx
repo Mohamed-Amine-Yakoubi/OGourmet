@@ -1,14 +1,12 @@
 "use client";
 import React, { useState } from "react";
 
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.webp";
 import { IoClose, IoMenu } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaFacebook, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
-import Background_header_menu from "../../../public/background_header_menu.png";
-
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -59,7 +57,7 @@ export const Navbar = () => {
             <Link href="/" className="block p-2 header_title">
               Accueil
             </Link>
-            <Link href="/Menu" className="block p-2 header_title">
+            <Link href="Menu" className="block p-2 header_title">
               Menu
             </Link>
             <Link href="/#À Propos" className="block p-2 header_title">
@@ -141,7 +139,7 @@ export const Navbar = () => {
                 Accueil
               </Link>
               <Link
-                href="/Menu"
+                href="Menu"
                 className="block p-2 text-center"
                 onClick={toggleMenu}
               >
@@ -173,17 +171,17 @@ export const Navbar = () => {
                 }} // Animation de sortie
                 transition={{ duration: 0.8, ease: "easeInOut" }}
               >
-                <Link href="/" className="block p-2 text-[25px] text-[#ffbe33]">
+                <Link href="https://www.instagram.com/ogourmet_44/" className="block p-2 text-[25px] text-[#ffbe33]">
                   <FaFacebook />
                 </Link>
                 <Link
-                  href="/Menu"
+                  href="https://www.instagram.com/ogourmet_44/"
                   className="block p-2 text-[25px] text-[#ffbe33]"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
-                  href="/about"
+                  href="https://www.instagram.com/ogourmet_44/"
                   className="block p-2 text-[25px] text-[#ffbe33]"
                 >
                   <FaSnapchatGhost />
@@ -198,7 +196,7 @@ export const Navbar = () => {
       >
         {/* Image en arrière-plan */}
         <Image
-          src={Background_header_menu} // Remplace par le chemin de ton image
+            src="/background_header_menu.webp" // Remplace par le chemin de ton image
           alt="Header Image"
           layout="fill"
           objectFit="cover"

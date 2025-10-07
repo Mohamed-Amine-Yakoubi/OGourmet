@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import logo from "../../public/logo.png";
-import header_photo from "../../public/header_photo.png";
+import logo from "../../public/logo.webp";
+import header_photo from "../../public/header_photo.webp";
 import { IoClose, IoMenu } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
@@ -237,9 +237,9 @@ export const Header = () => {
               Spécialiste du fast-food, O'Gourmet vous régale avec des recettes
               gourmandes et généreuses
             </p>
-            <button className="!bg-[#ffbe33] p-2 px-5 rounded-full text-dark text-[15px]">
+            <Link href="/Menu" className="!bg-[#ffbe33] p-2 px-5 rounded-full text-dark text-[15px]">
               Notre Menu
-            </button>
+            </Link>
           </motion.div>
           <motion.div
             className="section_2  "

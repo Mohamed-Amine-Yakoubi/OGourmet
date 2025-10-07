@@ -9,9 +9,9 @@ import {
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import "../../public/Background_header.png";
+import "../../public/Background_header.webp";
 import "../styles/Footer.scss";
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.webp";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -83,22 +83,22 @@ export const Footer = () => {
             <Link href="/Menu" className="block p-2 header_title">
               Menu
             </Link>
-            <Link href="/about" className="block p-2 header_title">
-              A propos
+            <Link href="/#À Propos" className="block p-2 header_title">
+              À Propos
             </Link>
-            <Link href="/contact" className="block p-2 header_title">
+            <Link href="/#Contact"  className="block p-2 header_title">
               Contact
             </Link>
           </div>
           <div className="social-icons  flex  flex-row  space-x-3  ">
-            <Link href="/" className="block p-2 text-[25px] text-[#ffbe33]">
+            <Link href="https://www.instagram.com/ogourmet_44/" className="block p-2 text-[25px] text-[#ffbe33]">
               <FaFacebook />
             </Link>
-            <Link href="/Menu" className="block p-2 text-[25px] text-[#ffbe33]">
+            <Link href="https://www.instagram.com/ogourmet_44/" className="block p-2 text-[25px] text-[#ffbe33]">
               <FaInstagram />
             </Link>
             <Link
-              href="/about"
+              href="https://www.instagram.com/ogourmet_44/"
               className="block p-2 text-[25px] text-[#ffbe33]"
             >
               <FaSnapchatGhost />

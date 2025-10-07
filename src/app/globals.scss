@@ -1,6 +1,9 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
- 
 $yellow: #ffbe33;
 $green: #5B9F21;
 $dark: #484848;
@@ -13,11 +16,12 @@ html {
   scroll-behavior: smooth;
  
 }
-h1,h2,h3,h4,p{
-  font-family: "Montserrat", sans-serif;
+
+body, h1, h2, h3, h4, p {
+  font-family: var(--font-montserrat), sans-serif;
 }
 .header_title {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
 
   font-size: 13px;
   color: white;
@@ -28,13 +32,12 @@ h1,h2,h3,h4,p{
 }
 
 .text_header {
-  font-family: "AWAKENNING", sans-serif;
+  font-family: var(--font-awakenning);
 
   color: white;
 }
 
 .text {
-  font-family: "Montserrat", sans-serif;
 
   color: #484848;
 }
@@ -49,7 +52,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../../public/Background_dark.png");
+  background-image: url("../../public/Background_dark.webp");
   background-size: 70%; /* Adjust as needed */
   background-position: center;
  
@@ -57,7 +60,7 @@ body::before {
   z-index: -1; /* Ensures it stays behind content */
 }
 .scrolled {
-  background-image: url("../../public/Background_header.png");
+  background-image: url("../../public/Background_header.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +84,7 @@ nav::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../../public/Background_header.png");
+  background-image: url("../../public/Background_header.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

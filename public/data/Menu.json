@@ -3,7 +3,7 @@
     "id": 1 , 
     "Libellé": "Kebab" , 
     "Description": "viande kebab" , 
-    "Image": "/Sandwichs_images/Kebab.png" , 
+    "Image": "/Sandwichs_images/Kebab.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9 , 
     "Catégorie": "Sandwichs"
@@ -12,7 +12,7 @@
     "id": 2 , 
     "Libellé": "Chicken" , 
     "Description": "poulet mariné au curry , fromage" , 
-    "Image": "/Sandwichs_images/Chicken.png" , 
+    "Image": "/Sandwichs_images/Chicken.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9 , 
     "Catégorie": "Sandwichs"
@@ -21,7 +21,7 @@
     "id": 3 , 
     "Libellé": "Duo" , 
     "Description": "2 viandes au choix , fromage" , 
-    "Image": "/Sandwichs_images/Duo.png" , 
+    "Image": "/Sandwichs_images/Duo.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Sandwichs"
@@ -30,7 +30,7 @@
     "id": 4 , 
     "Libellé": "Américain" , 
     "Description": "2 steak , fromage" , 
-    "Image": "/Sandwichs_images/Américain.png" , 
+    "Image": "/Sandwichs_images/Américain.webp" , 
     "Prix_Seul": 6.5 , 
     "Prix_Menu": 8 , 
     "Catégorie": "Sandwichs"
@@ -39,7 +39,7 @@
     "id": 5 , 
     "Libellé": "Cordon bleu" , 
     "Description": "cordon bleu" , 
-    "Image": "/Sandwichs_images/Cordon_Bleu.png" , 
+    "Image": "/Sandwichs_images/Cordon_Bleu.webp" , 
     "Prix_Seul": 6.5 , 
     "Prix_Menu": 8 , 
     "Catégorie": "Sandwichs"
@@ -48,7 +48,7 @@
     "id": 6 , 
     "Libellé": "Wrap" , 
     "Description": "pain galette 3 tenders , fromage" , 
-    "Image": "/Sandwichs_images/Wrap.png" , 
+    "Image": "/Sandwichs_images/Wrap.webp" , 
     "Prix_Seul": 8 , 
     "Prix_Menu": 9.5 , 
     "Catégorie": "Sandwichs"
@@ -57,7 +57,7 @@
     "id": 7 , 
     "Libellé": "Tandoori" , 
     "Description": "Chicken tandoori" , 
-    "Image": "/Sandwichs_images/Tandoori.png" , 
+    "Image": "/Sandwichs_images/Tandoori.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9 , 
     "Catégorie": "Sandwichs"
@@ -66,7 +66,7 @@
     "id": 8 , 
     "Libellé": "Royal" , 
     "Description": "1 viande choix fromage , oeuf" , 
-    "Image": "/Sandwichs_images/Royal.png" , 
+    "Image": "/Sandwichs_images/Royal.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Sandwichs"
@@ -75,7 +75,7 @@
     "id": 9 , 
     "Libellé": "Kefta" , 
     "Description": "2 boules de kefta" , 
-    "Image": "/Sandwichs_images/Kefta.png" , 
+    "Image": "/Sandwichs_images/Kefta.webp" , 
     "Prix_Seul": 7 , 
     "Prix_Menu": 8.5 , 
     "Catégorie": "Sandwichs"
@@ -84,7 +84,7 @@
     "id": 10 , 
     "Libellé": "Végétarien" , 
     "Description": "oeuf fromage" , 
-    "Image": "/Sandwichs_images/Végétarien.png" , 
+    "Image": "/Sandwichs_images/Végétarien.webp" , 
     "Prix_Seul": 5.5 , 
     "Prix_Menu": 7 , 
     "Catégorie": "Sandwichs"
@@ -93,7 +93,7 @@
     "id": 11 , 
     "Libellé": "La dalle" , 
     "Description": "2 steak bacon oeuf chedar" , 
-    "Image": "/Sandwichs_images/Dalle.png" , 
+    "Image": "/Sandwichs_images/Dalle.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Sandwichs"
@@ -102,7 +102,7 @@
     "id": 12 , 
     "Libellé": "Escalope" , 
     "Description": "escalope de poulet , fromage" , 
-    "Image": "/Sandwichs_images/Escalope.png" , 
+    "Image": "/Sandwichs_images/Escalope.webp" , 
     "Prix_Seul": 7 , 
     "Prix_Menu": 8.5 , 
     "Catégorie": "Sandwichs"
@@ -111,7 +111,7 @@
     "id": 13 , 
     "Libellé": "Le chèvre" , 
     "Description": "2 steak galette de p.d.t , chèvre" , 
-    "Image": "/Sandwichs_images/Chévre.png" , 
+    "Image": "/Sandwichs_images/Chévre.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Sandwichs"
@@ -120,7 +120,7 @@
     "id": 14 , 
     "Libellé": "Boursin" , 
     "Description": "galette de p.d.t poulet boursin" , 
-    "Image": "/Sandwichs_images/Boursin.png" , 
+    "Image": "/Sandwichs_images/Boursin.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Sandwichs"
@@ -130,7 +130,7 @@
     "id": 15 , 
     "Libellé": "Cheese" , 
     "Description": "1 steak  , cheddar" , 
-    "Image": "/Burgers/Cheese.png" , 
+    "Image": "/Burgers/Cheese.webp" , 
     "Prix_Seul": 5.5 , 
     "Prix_Menu": 7 , 
     "Catégorie": "Burgers"
@@ -139,7 +139,7 @@
     "id": 16 , 
     "Libellé": "Double Cheese" , 
     "Description": "2 steak  , 2 cheddars" , 
-    "Image": "/Burgers/Double_Cheese.png" , 
+    "Image": "/Burgers/Double_Cheese.webp" , 
     "Prix_Seul": 6.5 , 
     "Prix_Menu": 8 , 
     "Catégorie": "Burgers"
@@ -148,7 +148,7 @@
     "id": 17 , 
     "Libellé": "Triple Cheese" , 
     "Description": "3 steak  , 3 cheddars" , 
-    "Image": "/Burgers/Triple_Cheese.png" , 
+    "Image": "/Burgers/Triple_Cheese.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9 , 
     "Catégorie": "Burgers"
@@ -158,7 +158,7 @@
     "id": 18 , 
     "Libellé": "Le Gourmet" , 
     "Description": "1 steak  , galette de p.d.t  , bacon  , chedar" , 
-    "Image": "/Burgers/Gourmet.png" , 
+    "Image": "/Burgers/Gourmet.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Burgers"
@@ -167,7 +167,7 @@
     "id": 19 , 
     "Libellé": "Cheese Gourmet" , 
     "Description": "1 steak , chicken , chedar" , 
-    "Image": "/Burgers/Cheese_Gourmet.png" , 
+    "Image": "/Burgers/Cheese_Gourmet.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Burgers"
@@ -176,7 +176,7 @@
     "id": 20 , 
     "Libellé": "Chicken" , 
     "Description": "1 galette de poulet , chedar" , 
-    "Image": "/Burgers/Chicken.png" , 
+    "Image": "/Burgers/Chicken.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9 , 
     "Catégorie": "Burgers"
@@ -185,7 +185,7 @@
     "id": 21 , 
     "Libellé": "Végétarien" , 
     "Description": "1 galette de p.d.t , chedar" , 
-    "Image": "/Burgers/Végétarien.png" , 
+    "Image": "/Burgers/Végétarien.webp" , 
     "Prix_Seul": 7 , 
     "Prix_Menu": 8.5 , 
     "Catégorie": "Burgers"
@@ -194,7 +194,7 @@
     "id": 22 , 
     "Libellé": "Le Chèvre Miel" , 
     "Description": "2 steak  , chedar  , chèvre , miel" , 
-    "Image": "/Burgers/Chèvre_Miel.png" , 
+    "Image": "/Burgers/Chèvre_Miel.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Burgers"
@@ -203,7 +203,7 @@
     "id": 23 , 
     "Libellé": "Big Gourmet" , 
     "Description": "2 steak , bacon , chedar" , 
-    "Image": "/Burgers/Big_Gourmet.png" , 
+    "Image": "/Burgers/Big_Gourmet.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10 , 
     "Catégorie": "Burgers"
@@ -213,7 +213,7 @@
     "id": 24 , 
     "Libellé": "Marguerita" , 
     "Description": "sauce tomate , fromage , origan" , 
-    "Image": "/Pizzas/Sauce_tomate/Marguerita.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Marguerita.webp" , 
     "Prix_Moyenne": 10.9 , 
     "Prix_Méga": 10 , 
     "Catégorie": "Pizzas" , 
@@ -223,7 +223,7 @@
     "id": 25 , 
     "Libellé": "Regina" , 
     "Description": "sauce tomate , mozzarella , jambon , champignons" , 
-    "Image": "/Pizzas/Sauce_tomate/Regina.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Regina.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -233,7 +233,7 @@
     "id": 26 , 
     "Libellé": "Tonarella" , 
     "Description": "sauce tomate , mozzarella , thon , olives , œuf" , 
-    "Image": "/Pizzas/Sauce_tomate/Tonarella.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Tonarella.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -243,7 +243,7 @@
     "id": 27 , 
     "Libellé": "Napolitaine" , 
     "Description": "sauce tomate , mozzarella , anchois , câpres , olives" , 
-    "Image": "/Pizzas/Sauce_tomate/Napolitaine.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Napolitaine.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -253,7 +253,7 @@
     "id": 28 , 
     "Libellé": "La Boursin" , 
     "Description": "sauce tomate , mozzarella , viande hachée , boursin , olives" , 
-    "Image": "/Pizzas/Sauce_tomate/Boursin.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Boursin.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -263,7 +263,7 @@
     "id": 29 , 
     "Libellé": "Un Jean" , 
     "Description": "sauce curry , mozzarella , oignons , poulet , œuf" , 
-    "Image": "/Pizzas/Sauce_tomate/Jean.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Jean.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -273,7 +273,7 @@
     "id": 30 , 
     "Libellé": "4 Fromages" , 
     "Description": "sauce tomate , mozzarella , brie chèvre , parmesan , roquefort" , 
-    "Image": "/Pizzas/Sauce_tomate/Fromages.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Fromages.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -283,7 +283,7 @@
     "id": 31 , 
     "Libellé": "3 Jambons" , 
     "Description": "sauce tomate , mozzarella  ,  lardon  ,  jambon  ,  chorizo" , 
-    "Image": "/Pizzas/Sauce_tomate/Jambons.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Jambons.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -294,7 +294,7 @@
     "id": 32 , 
     "Libellé": "Remini" , 
     "Description": "sauce tomate , mozzarella , chorizo , viande hachée , poivrons , olives" , 
-    "Image": "/Pizzas/Sauce_tomate/Remini.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Remini.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -304,7 +304,7 @@
     "id": 33 , 
     "Libellé": "Orientale" , 
     "Description": "sauce tomate , mozzarella , merguez , poivrons , oignons , œuf" , 
-    "Image": "/Pizzas/Sauce_tomate/Orientale.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Orientale.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -314,7 +314,7 @@
     "id": 34 , 
     "Libellé": "Végétarienne" , 
     "Description": "sauce tomate , tomate , mozzarella , poivrons , oignons , champignons , olive" , 
-    "Image": "/Pizzas/Sauce_tomate/végétarienne.png" , 
+    "Image": "/Pizzas/Sauce_tomate/végétarienne.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -324,7 +324,7 @@
     "id": 35 , 
     "Libellé": "Mexicaine" , 
     "Description": "sauce sauce samouraï , mozzarella , merguez , chorizo , poivrons" , 
-    "Image": "/Pizzas/Sauce_tomate/Mexicaine.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Mexicaine.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -334,7 +334,7 @@
     "id": 36 , 
     "Libellé": "Calzone" , 
     "Description": "sauce tomate , mozzarella , jambon , oeuf" , 
-    "Image": "/Pizzas/Sauce_tomate/Calzone.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Calzone.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -344,7 +344,7 @@
     "id": 37 , 
     "Libellé": "Kebab" , 
     "Description": "sauce tomate , mozzarella , viande hachée , poivrons , oignons" , 
-    "Image": "/Pizzas/Sauce_tomate/Kebab.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Kebab.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -354,7 +354,7 @@
     "id": 38 , 
     "Libellé": "Fruits De Mer" , 
     "Description": "sauce tomate , mozzarella , calamar , crevettes , moules , ail , persil" , 
-    "Image": "/Pizzas/Sauce_tomate/fruits_de_mer.png" , 
+    "Image": "/Pizzas/Sauce_tomate/fruits_de_mer.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -364,7 +364,7 @@
     "id": 39 , 
     "Libellé": "4 saisons" , 
     "Description": "sauce tomate , mozzarella , jambon , champignons , poivrons olives" , 
-    "Image": "/Pizzas/Sauce_tomate/4saisons.png" , 
+    "Image": "/Pizzas/Sauce_tomate/4saisons.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -374,7 +374,7 @@
     "id": 40 , 
     "Libellé": "Cannibale" , 
     "Description": "sauce tomate , mozzarella , viande hachée , poulet , merguez" , 
-    "Image": "/Pizzas/Sauce_tomate/Cannibale.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Cannibale.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -384,7 +384,7 @@
     "id": 41 , 
     "Libellé": "Bolognaise" , 
     "Description": "sauce tomate , tomate , mozzarella , pommes de terre , oignons , viande hachée" , 
-    "Image": "/Pizzas/Sauce_tomate/Bolognaise.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Bolognaise.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -394,7 +394,7 @@
     "id": 42 , 
     "Libellé": "La Spéciale" , 
     "Description": "sauce tomate , tomate , jambon , chèvre , poivrons , oignons" , 
-    "Image": "/Pizzas/Sauce_tomate/Spéciale.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Spéciale.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -404,7 +404,7 @@
     "id": 43 , 
     "Libellé": "Zapwich" , 
     "Description": "sauce tomate , tomate , fromage , viande de choix légumes au choixs" , 
-    "Image": "/Pizzas/Sauce_tomate/Zapwich.png" , 
+    "Image": "/Pizzas/Sauce_tomate/Zapwich.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -415,7 +415,7 @@
     "id": 44 , 
     "Libellé": "Marina" , 
     "Description": "crème fraîche , mozzarella , poulet , pommes de terre" , 
-    "Image": "/Pizzas/Crème_fraiche/Marina.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Marina.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -426,7 +426,7 @@
     "id": 45 , 
     "Libellé": "Cocktail 4 fromages" , 
     "Description": "crème fraîche , mozzarella , chèvre , brie , gorgonzola , parmesan" , 
-    "Image": "/Pizzas/Crème_fraiche/Cocktail_4_Fromages.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Cocktail_4_Fromages.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -436,7 +436,7 @@
     "id": 46 , 
     "Libellé": "Tartiflette" , 
     "Description": "crème fraîche , mozzarella , lardons , pommes de terre , reblochon , oignons" , 
-    "Image": "/Pizzas/Crème_fraiche/Tartiflette.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Tartiflette.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -446,7 +446,7 @@
     "id": 47 , 
     "Libellé": "Torino" , 
     "Description": "crème fraîche , mozzarella , bacon , champignons , œuf" , 
-    "Image": "/Pizzas/Crème_fraiche/Torino.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Torino.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -456,7 +456,7 @@
     "id": 48 , 
     "Libellé": "Nevada" , 
     "Description": "crème fraîche , mozzarella , poulet , champignons , oignons" , 
-    "Image": "/Pizzas/Crème_fraiche/Nevada.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Nevada.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -466,7 +466,7 @@
     "id": 49 , 
     "Libellé": "La Raclette" , 
     "Description": "crème fraîche , mozzarella , jambon , pommes de terre , fromage , raclette" , 
-    "Image": "/Pizzas/Crème_fraiche/Raclette.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Raclette.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -476,7 +476,7 @@
     "id": 50 , 
     "Libellé": "Chèvre Miel" , 
     "Description": "crème fraîche , mozzarella , chèvre , miel" , 
-    "Image": "/Pizzas/Crème_fraiche/Chèvre_Miel.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Chèvre_Miel.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -486,7 +486,7 @@
     "id": 51 , 
     "Libellé": "Texas" , 
     "Description": "crème fraîche , bacon , double mozzarella , viande hachée , cheddar" , 
-    "Image": "/Pizzas/Crème_fraiche/Texas.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Texas.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -496,7 +496,7 @@
     "id": 52 , 
     "Libellé": "La Gourmet" , 
     "Description": "crème fraîche , poulet , poivrons , double mozzarella , pommes de terre , Boursin" , 
-    "Image": "/Pizzas/Crème_fraiche/Gourmet.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Gourmet.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -506,7 +506,7 @@
     "id": 53 , 
     "Libellé": "La Burger" , 
     "Description": "sauce Biggy , mozzarella , cordons-bleus , viande hachée , oignons" , 
-    "Image": "/Pizzas/Crème_fraiche/Burger.png" , 
+    "Image": "/Pizzas/Crème_fraiche/Burger.webp" , 
     "Prix_Moyenne": 12.9 , 
     "Prix_Méga": 19.9 , 
     "Catégorie": "Pizzas" , 
@@ -515,28 +515,28 @@
   {
     "id": 54 , 
     "Libellé": "4 Fromages" , 
-    "Image": "/Pates/Fromages.png" , 
+    "Image": "/Pates/Fromages.webp" , 
     "Prix": 9.9 , 
     "Catégorie": "Pates"
   } , 
   {
     "id": 55 , 
     "Libellé": "Bolognaise" , 
-    "Image": "/Pates/Bolognaise.png" , 
+    "Image": "/Pates/Bolognaise.webp" , 
     "Prix": 9.9 , 
     "Catégorie": "Pates"
   } , 
   {
     "id": 56 , 
     "Libellé": "Carbonara" , 
-    "Image": "/Pates/Carbonara.png" , 
+    "Image": "/Pates/Carbonara.webp" , 
     "Prix": 9.9 , 
     "Catégorie": "Pates"
   } , 
   {
     "id": 57 , 
     "Libellé": "Saumon" , 
-    "Image": "/Pates/Saumon.png" , 
+    "Image": "/Pates/Saumon.webp" , 
     "Prix": 9.9 , 
     "Catégorie": "Pates"
   } , 
@@ -544,91 +544,91 @@
   {
     "id": 58 , 
     "Libellé": "1 Viande" , 
-    "Image": "/Assiettes/1_viande.png" , 
+    "Image": "/Assiettes/1_viande.webp" , 
     "Prix": 10.5 , 
     "Catégorie": "Assiettes"
   } , 
   {
     "id": 59 , 
     "Libellé": "2 Viande" , 
-    "Image": "/Assiettes/2-viandes.png" , 
+    "Image": "/Assiettes/2-viandes.webp" , 
     "Prix": 11.5 , 
     "Catégorie": "Assiettes"
   } , 
   {
     "id": 60 , 
     "Libellé": "2 Viande" , 
-    "Image": "/Assiettes/2viandes.png" , 
+    "Image": "/Assiettes/2viandes.webp" , 
     "Prix": 12.5 , 
     "Catégorie": "Assiettes"
   } , 
   {
     "id": 61 , 
     "Libellé": "8 Nuggets" , 
-    "Image": "/TexMex/Nuggets.png" , 
+    "Image": "/TexMex/Nuggets.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 62 , 
     "Libellé": "8 Bouchées Camembert" , 
-    "Image": "/TexMex/Bouchées_Camembert.png" , 
+    "Image": "/TexMex/Bouchées_Camembert.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 63 , 
     "Libellé": "8 Calamars" , 
-    "Image": "/TexMex/Calamars.png" , 
+    "Image": "/TexMex/Calamars.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 64 , 
     "Libellé": "10 Onion Rings" , 
-    "Image": "/TexMex/Onion_Rings.png" , 
+    "Image": "/TexMex/Onion_Rings.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 65 , 
     "Libellé": "Petite Frite" , 
-    "Image": "/TexMex/Petite_Frite.png" , 
+    "Image": "/TexMex/Petite_Frite.webp" , 
     "Prix": 2.5 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 66 , 
     "Libellé": "10 Chili Cheese Nuggets" , 
-    "Image": "/TexMex/Cheese_Nuggets.png" , 
+    "Image": "/TexMex/Cheese_Nuggets.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 67 , 
     "Libellé": "8 Chicken Wings" , 
-    "Image": "/TexMex/Chicken_Wings.png" , 
+    "Image": "/TexMex/Chicken_Wings.webp" , 
     "Prix": 9.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 68 , 
     "Libellé": "8 Tenders" , 
-    "Image": "/TexMex/Tenders.png" , 
+    "Image": "/TexMex/Tenders.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 69 , 
     "Libellé": "Grande Frite" , 
-    "Image": "/TexMex/Grande_Frite.png" , 
+    "Image": "/TexMex/Grande_Frite.webp" , 
     "Prix": 3.5 , 
     "Catégorie": "TexMex"
   } , 
   {
     "id": 70 , 
     "Libellé": "Cheddar Gratiné" , 
-    "Image": "/TexMex/Cheddar_Gratiné.png" , 
+    "Image": "/TexMex/Cheddar_Gratiné.webp" , 
     "Prix": 4.5 , 
     "Catégorie": "TexMex"
   } , 
@@ -636,14 +636,14 @@
   {
     "id": 71 , 
     "Libellé": "1 Viande" , 
-    "Image": "/Box/1_viande.png" , 
+    "Image": "/Box/1_viande.webp" , 
     "Prix": 7 , 
     "Catégorie": "Box"
   } , 
   {
     "id": 72 , 
     "Libellé": "2 Viandes" , 
-    "Image": "/Box/2_viandes.png" , 
+    "Image": "/Box/2_viandes.webp" , 
     "Prix": 8.5 , 
     "Catégorie": "Box"
   } , 
@@ -651,14 +651,14 @@
   {
     "id": 73 , 
     "Libellé": "4 Fromages" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
     "Prix": 5 , 
     "Catégorie": "Paninis"
   } , 
   {
     "id": 74 , 
     "Libellé": "Kebab" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -666,7 +666,7 @@
   {
     "id": 75 , 
     "Libellé": "Jambon" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -674,7 +674,7 @@
   {
     "id": 76 , 
     "Libellé": "Poulet" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -682,7 +682,7 @@
   {
     "id": 77 , 
     "Libellé": "Steak" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -690,7 +690,7 @@
   {
     "id": 78 , 
     "Libellé": "Chèvre Miel" , 
-    "Image": "/Paninis/Paninis.png" , 
+    "Image": "/Paninis/Paninis.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -698,7 +698,7 @@
   {
     "id": 79 , 
     "Libellé": "Nutella" , 
-    "Image": "/Paninis/Paninis_Nutella.png" , 
+    "Image": "/Paninis/Paninis_Nutella.webp" , 
 
     "Prix": 5 , 
     "Catégorie": "Paninis"
@@ -708,7 +708,7 @@
     "id": 80 , 
     "Libellé": "Spéciale" , 
     "Description": "salade , tomates , oignons , jambon cornichons" , 
-    "Image": "/Salades/Spéciale.png" , 
+    "Image": "/Salades/Spéciale.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "Salades"
   } , 
@@ -716,7 +716,7 @@
     "id": 81 , 
     "Libellé": "Chèvre Chaud" , 
     "Description": "salade , tomates , oignons , chèvre chaud sur toast" , 
-    "Image": "/Salades/Chèvre.png" , 
+    "Image": "/Salades/Chèvre.webp" , 
 
     "Prix": 8.9 , 
     "Catégorie": "Salades"
@@ -725,7 +725,7 @@
     "id": 82 , 
     "Libellé": "Niçoise" , 
     "Description": "salade , tomates , oignons , thon , olives , cornichons , chedar" , 
-    "Image": "/Salades/Niçoise.png" , 
+    "Image": "/Salades/Niçoise.webp" , 
 
     "Prix": 8.9 , 
     "Catégorie": "Salades"
@@ -734,7 +734,7 @@
     "id": 83 , 
     "Libellé": "Italienne" , 
     "Description": "salade , tomates , oignons , poulet , gruyère , olives" , 
-    "Image": "/Salades/Italienne.png" , 
+    "Image": "/Salades/Italienne.webp" , 
 
     "Prix": 8.9 , 
     "Catégorie": "Salades"
@@ -743,7 +743,7 @@
     "id": 84 , 
     "Libellé": "Norvégienne" , 
     "Description": "salade , tomates , oignons , saumon , citron" , 
-    "Image": "/Salades/Norvégienne.png" , 
+    "Image": "/Salades/Norvégienne.webp" , 
     "Prix": 8.9 , 
     "Catégorie": "Salades"
   } , 
@@ -751,7 +751,7 @@
     "id": 85 , 
     "Libellé": "Menu Enfant" , 
     "Description": "4 nuggets ou cheese burger , frites , Capri Sun , Pom’Potes" , 
-    "Image": "/Menu/MenuEnfant.png" , 
+    "Image": "/Menu/MenuEnfant.webp" , 
     "Prix": 6.5 , 
     "Catégorie": "Menu"
   } , 
@@ -759,7 +759,7 @@
     "id": 86 , 
     "Libellé": "Menu Famille" , 
     "Description": "2 Pizzas méga , bouteille" , 
-    "Image": "/Menu/MenuFamille.png" , 
+    "Image": "/Menu/MenuFamille.webp" , 
     "Prix": 31.9 , 
     "Catégorie": "Menu"
   } , 
@@ -767,7 +767,7 @@
     "id": 87 , 
     "Libellé": "Menu Midi" , 
     "Description": "1Pizza , boisson 33cl" , 
-    "Image": "/Menu/MenuMidi.png" , 
+    "Image": "/Menu/MenuMidi.webp" , 
     "Prix": 12.9 , 
     "Catégorie": "Menu"
   } , 
@@ -775,14 +775,14 @@
     "id": 88 , 
     "Libellé": "Menu Solo" , 
     "Description": "1 pizza , 6 nuggets ou 6 bouchées , 1 bouteille 1L25  , 1 dessert au choix sauf (glace , milshake)" , 
-    "Image": "/Menu/MenuSolo.png" , 
+    "Image": "/Menu/MenuSolo.webp" , 
     "Prix": 23.9 , 
     "Catégorie": "Menu"
   } , 
   {
     "id": 89 , 
     "Libellé": "Tarte Au Citron" , 
-    "Image": "/Desserts/TarteCitron.png" , 
+    "Image": "/Desserts/TarteCitron.webp" , 
     "Prix": 3 , 
     "Catégorie": "Desserts"
   }
@@ -790,70 +790,70 @@
   {
     "id": 90 , 
     "Libellé": "Tarte Au Daim" , 
-    "Image": "/Desserts/TarteDaim.png" , 
+    "Image": "/Desserts/TarteDaim.webp" , 
     "Prix": 3 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 91 , 
     "Libellé": "Brownie" , 
-    "Image": "/Desserts/Brownie.png" , 
+    "Image": "/Desserts/Brownie.webp" , 
     "Prix": 3 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 92 , 
     "Libellé": "Tiramisu" , 
-    "Image": "/Desserts/Tiramisu.png" , 
+    "Image": "/Desserts/Tiramisu.webp" , 
     "Prix": 3.5 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 93 , 
     "Libellé": "Milkshake Oreo" , 
-    "Image": "/Desserts/MilkshakeOreo.png" , 
+    "Image": "/Desserts/MilkshakeOreo.webp" , 
     "Prix": 5.5 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 94 , 
     "Libellé": "Milkshake Bueno" , 
-    "Image": "/Desserts/MilkshakeBueno.png" , 
+    "Image": "/Desserts/MilkshakeBueno.webp" , 
     "Prix": 5.5 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 95 , 
     "Libellé": "Bouteille" , 
-    "Image": "/Desserts/Bouteille.png" , 
+    "Image": "/Desserts/Bouteille.webp" , 
     "Prix": 3.5 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 96 , 
     "Libellé": "HaagenDazs" , 
-    "Image": "/Desserts/HaagenDazs.png" , 
+    "Image": "/Desserts/HaagenDazs.webp" , 
     "Prix": 4 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 97 , 
     "Libellé": "Ben & Jerry" , 
-    "Image": "/Desserts/Ben&Jerry.png" , 
+    "Image": "/Desserts/Ben&Jerry.webp" , 
     "Prix": 3 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 98 , 
     "Libellé": "Canette" , 
-    "Image": "/Desserts/Canette.png" , 
+    "Image": "/Desserts/Canette.webp" , 
     "Prix": 2 , 
     "Catégorie": "Desserts"
   } , 
   {
     "id": 99 , 
     "Libellé": "Milkshake Speculoos" , 
-    "Image": "/Desserts/MilkshakeSpeculoos.png" , 
+    "Image": "/Desserts/MilkshakeSpeculoos.webp" , 
     "Prix": 5.5 , 
     "Catégorie": "Desserts"
   }
@@ -861,7 +861,7 @@
   {
     "id": 100 , 
     "Libellé": "Milkshake Snickers" , 
-    "Image": "/Desserts/MilkshakeSnickers.png" , 
+    "Image": "/Desserts/MilkshakeSnickers.webp" , 
     "Prix": 5.5 , 
     "Catégorie": "Desserts"
   }
@@ -869,7 +869,7 @@
   {
     "id": 101 , 
     "Libellé": "1 Viande" , 
-    "Image": "/Tacos/Tacos.png" , 
+    "Image": "/Tacos/Tacos.webp" , 
     "Prix_Seul": 7.5 , 
     "Prix_Menu": 9.5 , 
     "Catégorie": "Tacos"
@@ -878,7 +878,7 @@
   {
     "id": 102 , 
     "Libellé": "2 Viande" , 
-    "Image": "/Tacos/Tacos.png" , 
+    "Image": "/Tacos/Tacos.webp" , 
     "Prix_Seul": 8.5 , 
     "Prix_Menu": 10.5 , 
     "Catégorie": "Tacos"
@@ -887,7 +887,7 @@
   {
     "id": 103 , 
     "Libellé": "3 Viande" , 
-    "Image": "/Tacos/Tacos.png" , 
+    "Image": "/Tacos/Tacos.webp" , 
     "Prix_Seul": 10.5 , 
     "Prix_Menu": 12.5 , 
     "Catégorie": "Tacos"
